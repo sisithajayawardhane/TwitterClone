@@ -38,6 +38,7 @@
 		040C7D6E283806EA00FD9453 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 040C7D6D283806EA00FD9453 /* FirebaseStorage */; };
 		040C7D7028380B4300FD9453 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C7D6F28380B4300FD9453 /* AuthViewModel.swift */; };
 		04C7938A2873563700E3743A /* ProfilePhotoSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C793892873563700E3743A /* ProfilePhotoSelectorView.swift */; };
+		04C7938D28756CBD00E3743A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7938C28756CBD00E3743A /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		040C7D64283804EE00FD9453 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		040C7D6F28380B4300FD9453 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		04C793892873563700E3743A /* ProfilePhotoSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePhotoSelectorView.swift; sourceTree = "<group>"; };
+		04C7938C28756CBD00E3743A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		040C7D0728312F3D00FD9453 /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				04C7938B28756C9F00E3743A /* Utils */,
 				040C7D1928312FA100FD9453 /* Extensions */,
 				040C7D1828312F9F00FD9453 /* Model */,
 				040C7D1628312F8D00FD9453 /* Service */,
@@ -376,6 +379,14 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		04C7938B28756C9F00E3743A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04C7938C28756CBD00E3743A /* ImagePicker.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -458,6 +469,7 @@
 			files = (
 				040C7D312831662000FD9453 /* MessagesView.swift in Sources */,
 				040C7D362831694400FD9453 /* ProfileView.swift in Sources */,
+				04C7938D28756CBD00E3743A /* ImagePicker.swift in Sources */,
 				040C7D0B28312F3D00FD9453 /* ContentView.swift in Sources */,
 				040C7D2428313B2B00FD9453 /* TweetRowView.swift in Sources */,
 				040C7D382832746F00FD9453 /* TweetFilterViewModel.swift in Sources */,
