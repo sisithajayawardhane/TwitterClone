@@ -10,3 +10,5 @@ Basically this is a social media app built using twitter mobile app design
 <img width="481" alt="Screenshot 2022-07-06 at 12 26 19" src="https://user-images.githubusercontent.com/47636123/194500796-28d565ff-6635-4dce-a871-78d288a0f7b8.png">
 <img width="474" alt="Screenshot 2022-07-06 at 12 26 37" src="https://user-images.githubusercontent.com/47636123/194500809-f3b24a36-2792-4581-8036-0a317a92a517.png">
 <img width="471" alt="Screenshot 2022-07-06 at 12 26 46" src="https://user-images.githubusercontent.com/47636123/194500818-7ed9049c-082f-40cb-a53b-a8222df4ee4d.png">
+
+This is not finished yet
